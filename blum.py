@@ -438,9 +438,9 @@ def join_tribe(token, tribe_id):
     }
     response = requests.post(url, headers=headers)
     if response.status_code == 200:
-        print(f"{Fore.GREEN+Style.BRIGHT}[ Tribe ] Joined Ghalibie Lounge")
+        print(f"{Fore.GREEN+Style.BRIGHT}[ Tribe ] Joined Saderek derin")
     else:
-        print(f"{Fore.RED+Style.BRIGHT}[ Tribe ] Failed to join Ghalibie Lounge")
+        print(f"{Fore.RED+Style.BRIGHT}[ Tribe ] Failed to join Saderek derin")
 
 
 def print_welcome_message():
